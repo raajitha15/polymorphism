@@ -1,0 +1,27 @@
+import java.util.Scanner;
+class  Circle
+{
+	public static void radius(int d)
+	{
+		int r=d/2;
+		System.out.println(r);
+	}
+	public static void radius(double d)
+	{
+		double r=d/2;
+		System.out.println(r);
+	}
+}
+class Developer_Circle
+{
+	public static void main(String[]args)
+	{
+		int d;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the number");
+		d=sc.nextInt();
+		Circle c=new Circle();
+		c.radius(60);
+		c.radius(60.45);
+	}
+}
