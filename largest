@@ -1,0 +1,32 @@
+import java.util.Scanner;
+class Largest 
+{
+	public static void small(int a,int b)
+	{
+		System.out.println("diff between the two integer values are: "+(a-b));
+	
+	if(a>b)
+	{
+		System.out.println("a is greater");
+	}
+	else
+	{
+		System.out.println("b is greater");
+	}
+	}
+}
+class Developer_largest
+{
+	public static void main(String[] args) 
+	{
+		int a,b;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the a number");
+		a=sc.nextInt();
+		System.out.println("enter the b number");
+		b=sc.nextInt();
+		Largest l=new Largest();
+		l.small(a,b);
+
+	}
+}
